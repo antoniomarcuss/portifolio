@@ -31,12 +31,16 @@ header > img {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.482);
 }
 
+#qrcode {
+    display: none;
+}
+
 #dados > li {
     display: block;
     color: white;
     list-style-type: none;
     font-size: 0.7em;
-    margin-left: 25px;
+    margin-left: 5px;
   
 }
 

@@ -11,6 +11,15 @@
         width: 100vw;
     }
 
+   
+
+    #qrcode{
+        width: 150px;
+        display: block;
+        background-position: right;
+       
+    }
+
     menu{
         display: inline-block;
 
@@ -30,6 +39,7 @@
     }
     #dados {
         font-size: 1.4em;
+       
     }
     
     main {
