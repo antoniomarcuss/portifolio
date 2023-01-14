@@ -6,7 +6,9 @@
         display:inline-block;
         font-size: 0.9em;
         margin-top: 5px;
-        border-radius: 50px;
+        border-radius: 100px;
+        width: 150px;
+        
     }
 
 
