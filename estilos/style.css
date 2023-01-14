@@ -10,6 +10,12 @@ body{
     width: 100vw;
 }
 
+header{
+    background-image: linear-gradient(darkblue,black);
+    padding-top: 1px;
+    width: 100%;
+}
+
 header > img {
     display: block;
     margin: auto;
@@ -21,10 +27,7 @@ header > img {
     margin-top: 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.482);
 }
-header{
-    background-image: linear-gradient(darkblue,black);
-    padding-top: 1px;
-}
+
 #dados > li {
     display: block;
     color: white;
@@ -110,6 +113,10 @@ fieldset{
 }
 fieldset > li{
     text-align: left;
+}
+
+fieldset > li > a{
+    color: rgba(5, 5, 139, 0.9);
 }
 
 legend {
