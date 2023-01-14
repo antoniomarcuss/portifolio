@@ -30,7 +30,6 @@
     }
     #dados {
         font-size: 1.4em;
-        margin-left: 10px;
     }
     
     main {
@@ -42,7 +41,6 @@
     
     fieldset{
         width:730px;
-        padding: 20px;
         margin: auto;
         margin-top: 15px;
         

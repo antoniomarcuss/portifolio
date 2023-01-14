@@ -34,10 +34,9 @@ header > img {
 #dados > li {
     display: block;
     color: white;
-    padding-left: 5px;
     list-style-type: none;
     font-size: 0.7em;
-    margin: 5px;
+    margin-left: 25px;
   
 }
 
