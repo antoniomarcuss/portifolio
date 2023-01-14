@@ -16,7 +16,7 @@
     #qrcode{
         width: 150px;
         display: block;
-        background-position: right;
+        margin-right: 5%;
        
     }
 
@@ -39,7 +39,7 @@
     }
     #dados {
         font-size: 1.4em;
-       
+        margin-right: 5px;
     }
     
     main {
