@@ -1,38 +1,37 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio</title>
+    <title>Portifolio</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+   <link rel="stylesheet" href="estilos/style.css">
+   <link rel="stylesheet" href="estilos/media-query.css" media="screen">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
-     
-        <hr>
-        <h1>
-            Antonio Marcus
-        </h1>
-        
-        <div id="foto"></div>
-    
-    </header>
-
-        Belém-Pará-Brasil
-        <div>
+        <img src="imagens/foto1.jpg" alt="orla" id="foto">
+        <h1>Antonio Marcus  </h1>
+        <ul id="dados">
+            <li>Nascimento: 04/10/1997 - 25 anos <br> Belém - Pará</li>
+            <li>E-mail: Antoniomarcus180@gmail.com</li>
+            <li>Telefone: (91) 99804-9841</li>
+        </ul>
+                <span  id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
             <ul>
-                <li><a href="https://github.com/antoniomarcuss" target="_blank">GitHub<a></li>
-                <li><a href="https://www.linkedin.com/in/antonio-marcus-443942138/" target="_blank">linkedin</a></li>
-                <li><a href="#">Telefone</a></li>
-            
+                <li><a href="https://github.com/antoniomarcuss" target="_blank">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/antonio-marcus-443942138/" target="_blank">Linkedin</a></li>
+                <li><a href="https://api.whatsapp.com/send/?phone=%2B5591998049841&text&type=phone_number&app_absent=0" target="_blank">Telefone</a></li>
             </ul>
-        </div>
-
-
+        </menu>
+        
+    </header>
     <main>
         <fieldset>
             <legend>Resumo Profissional</legend>
-            crio sites com meu conhecimento em <strong>HTML</strong> e <strong>CSS</strong> utilizando as novas tecnologias de <strong>Media-Query</strong> criando sites responsivos para qualquer tipo de dispositivos sendo eles com telas grandes até as mais pequenas, também faço criação de tabelas, telas de login e formulários de um modo pratico e bem intuitível para o cliente.
+            Desenvolvo sites em <strong>HTML</strong> e <strong>CSS</strong> utilizando as novas tecnologias de <strong>Media-Query</strong> criando sites responsivos para qualquer tipo de dispositivos sendo eles telas grandes ou pequenas, também faço criação de tabelas, telas de login e formulários de um modo prático e bem intuitível para o usuário.
         </fieldset>
         
         <fieldset>
@@ -43,48 +42,32 @@
                 <li>JAVASCRIPT</li>
                 <li>PACOTE OFFICE</li>
         </fieldset>
-
         <fieldset>
             <legend>Objetivo</legend>
-    
                 <li> Desenvolvimento Web </li>
-            
+        
         </fieldset>
-
         <fieldset>
             <legend>Projetos</legend>
         
                 <li>Projeto login: <a href="https://antoniomarcuss.github.io/projeto-login" target="_blank">https://antoniomarcuss.github.io/projeto-login</a ></li> <br>
-
                 <li>Projeto social: <a href="https://antoniomarcuss.github.io/projeto-redesSociais/" target="_blank">https://antoniomarcuss.github.io/projeto-redesSociais</a></li> <br>
-                
+        
                 <li>Projeto cordel: <a href="https://antoniomarcuss.github.io/projeto-cordel/" target="_blank">https://antoniomarcuss.github.io/projeto-cordel/</a>  </li><br>
-
                 <li>Projeto android<a href="https://antoniomarcuss.github.io/projeto-android" target="_blank"> https://antoniomarcuss.github.io/projeto-android/</a>  </li>
-            
+        
         </fieldset>
-
         <fieldset>
             <legend>Certificados</legend>
-            <li>Html e Css módulo 1</li><a href="file:///C:/Users/anton/OneDrive/Documentos/certificados/Curso-HTML5-e-CSS3-modulo-1-de-5-40-HORAS-Certificado-Curso-em-Video.pdf">modulo 1</a>
-
-            <li>Html e Css módulo 2</li><a href="file:///C:/Users/anton/OneDrive/Documentos/certificados/Curso-HTML5-e-CSS3-modulo-2-de-5-40-HORAS-Certificado-Curso-em-Video.pdf">file:///C:/Users/anton/OneDrive/Documentos/certificados/Curso-HTML5-e-CSS3-modulo-2-de-5-40-HORAS-Certificado-Curso-em-Video.pdf</a>
-
-            <li>Html e Css Módulo 3</li><a href="file:///C:/Users/anton/OneDrive/Documentos/certificados/Curso-HTML5-e-CSS3-modulo-3-de-5-40-HORAS-Certificado-Curso-em-Video.pdf">file:///C:/Users/anton/OneDrive/Documentos/certificados/Curso-HTML5-e-CSS3-modulo-3-de-5-40-HORAS-Certificado-Curso-em-Video.pdf</a>
-
-            <li>JavaScript</li><a href="file:///C:/Users/anton/OneDrive/Documentos/certificados/Javascript-40-Horas-Certificado-Curso-em-Video.pdf">file:///C:/Users/anton/OneDrive/Documentos/certificados/Javascript-40-Horas-Certificado-Curso-em-Video.pdf</a>
-            
-
-            
-
+            <li>Html e Css módulo 1: <a href="http://127.0.0.1:5500/certificados/modulo1.html" target="_blank">http://127.0.0.1:5500/certificados/modulo1.html</a></li> <br>
+            <li>Html e Css módulo 2: <a href="http://127.0.0.1:5500/certificados/modulo2.html" target="_blank">http://127.0.0.1:5500/certificados/modulo2.html</a></li> <br>
+            <li>Html e Css Módulo 3: <a href="http://127.0.0.1:5500/certificados/modulo3.html" target="_blank">http://127.0.0.1:5500/certificados/modulo3.html</a></li> <br>
+            <li>JavaScript: <a href="http://127.0.0.1:5500/certificados/javascript.html" target="_blank">http://127.0.0.1:5500/certificados/javascript.html</a></li>
         </fieldset>
-
         <fieldset>
             <legend>Formação</legend>
-
                 <li>Ensino Médio Completo</li>
-                <li>Estou Cursando Análise e Desenvolvimento de Sistemas</li>
-
+                <li>Cursando Análise e Desenvolvimento de Sistemas</li>
         </fieldset>
         
         <fieldset>
@@ -93,8 +76,30 @@
         </fieldset>
         <fieldset>
             <legend>Pessoa</legend>
-            Gosto muito da area de Desenvolvimento web, também sou apaixoando por games, academia, filmes e séries
+            Gosto muito da area de Desenvolvimento web, também sou apaixoando por games, filmes e séries
         </fieldset>
-    </main>
+    </main> 
+    <footer>
+        <p>Site Desenvolvimento por <a href="https://github.com/antoniomarcuss" target="_blank">Antonio Marcus</a></p>  
+    </footer> 
+    <script>
+        function clickMenu(){
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+
+        function mudouTamanho(){
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            }else {
+                itens.style.display = 'none'
+            }
+        }
+    
+    </script>
+
 </body>
 </html>

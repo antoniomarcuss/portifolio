@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:768px) {
+    menu > ul > li  {
+        display:inline-block;
+        font-size: 0.9em;
+        margin-top: 5px;
+        border-radius: 50px;
+    }
+
+
+    #burguer{
+        display: none;;
+    }
+    #dados {
+        font-size: 1.2em;
+    }
+    
+    main {
+        width: 768px;
+        padding: 30px;
+    }
+}
+
