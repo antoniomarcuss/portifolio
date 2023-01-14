@@ -102,6 +102,7 @@ main{
 }
 
 fieldset{
+    margin: auto;
     width: 90vw;
     margin-top: 15px;
     padding: 10px;  
