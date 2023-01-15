@@ -28,11 +28,12 @@
         display: inline-block;
         background-image: url(../imagens/qrcod-portifolio.png);
         margin-left: 80%;
-       
+        position: absolute;
+        top: 180px
     }
 
     #foto {
-        width: 180px;
+        width: 200px;
     }
 
     menu{
