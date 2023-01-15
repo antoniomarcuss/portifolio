@@ -25,7 +25,7 @@ header > img {
 }
 
 #foto {
-    width: 200px;
+    width: 150px;
     border-radius: 200px;
     margin-top: 20px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.482);
@@ -40,8 +40,7 @@ header > img {
     color: white;
     list-style-type: none;
     font-size: 0.7em;
-    margin-left: 5px;
-  
+    margin-left: 25px;
 }
 
 
@@ -123,7 +122,7 @@ fieldset > li{
 }
 
 fieldset > li > a{
-    color: rgba(5, 5, 139, 0.9);
+    color: rgb(28, 16, 135);
 }
 
 legend {
