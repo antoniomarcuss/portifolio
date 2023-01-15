@@ -94,6 +94,9 @@ menu > ul > li > a {
 menu > ul > li > a:hover {
     background-color: rgba(22, 38, 71, 0.498);
     border: 1px solid white;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.614);
+    transition: transform 0.3s,border 0.5s;
 }
 
 

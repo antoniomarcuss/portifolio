@@ -31,6 +31,10 @@
        
     }
 
+    #foto {
+        width: 180px;
+    }
+
     menu{
         display: inline-block;
 
