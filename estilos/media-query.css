@@ -27,9 +27,9 @@
         background-size: cover;
         display: inline-block;
         background-image: url(../imagens/qrcod-portifolio.png);
-        margin-left: 80%;
         position: absolute;
-        top: 180px
+        top: 190px;
+        right: 40px;
     }
 
     #foto {
@@ -46,6 +46,7 @@
         font-size: 0.9em;
         margin-top: 5px;
         width: 150px;
+        
         
     }
 
