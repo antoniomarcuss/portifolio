@@ -110,7 +110,6 @@ main{
     border-radius: 10px;
     box-shadow: 3px 2px 15px rgba(0, 0, 0, 0.395);
     text-align: justify;
-    position: relative;
 }
 
 fieldset{
