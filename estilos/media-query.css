@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:768px){
+
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    body{
+        width: 100vw;
+    }
+
+    header{
+        width: 100vw;
+    }
+
+    header > h1 {
+        font-size: 2.2em;
+    }
+
+
+   #qrcode {
+        width: 150px;
+        height: 150px;
+        background-size: cover;
+        display: inline-block;
+        background-image: url(../imagens/qrcod-portifolio.png);
+        position: absolute;
+        top: 190px;
+        right: 40px;
+    }
+
+    #foto {
+        width: 200px;
+        height: 200px;
+    }
+
+    menu{
+        display: inline-block;
+
+    }
+
+    menu > ul > li  {
+        display:inline-block;
+        font-size: 0.9em;
+        margin-top: 5px;
+        width: 150px;
+        
+        
+    }
+
+
+    #burguer{
+        display: none;
+    }
+    #dados {
+        font-size: 1.3em;
+    }
+    
+    main {
+        width: 768px;
+        padding-bottom: 20px;
+       
+    
+    
+    }
+    
+    fieldset{
+        width:730px;
+        margin: auto;
+        margin-top: 15px;
+        
+    }
+    fieldset > li > a {
+        text-decoration: none;
+    }
+
+    fieldset > li > a:hover {
+        text-decoration: underline;
+    }
+ 
+}
+
