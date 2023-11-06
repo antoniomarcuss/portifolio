@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 762px) and (max-width:992px) {
+    header{
+        justify-content: right;
+    }
+
+    header a{
+        font-size: 1.1em;
+        width: 100px;
+        margin: 15px;
+        text-align: center;
+    }
+
+    .curriculo a:hover{
+        background-color: black;
+    }
+
+    header a:hover{
+        text-decoration: none;
+        border: 1px solid rgba(5, 52, 63, 0.991);
+        background-color: rgba(13, 95, 113, 0.991);
+        transition: 0.5s;
+    }
+
+    #eu h1{
+        font-size: 1.5em;
+    }
+
+    #foto {
+        height: 270px;
+    }
+
+    .redes{
+        height: 35px;
+    }
+
+    .h3{
+        font-size: 1.6em;;
+    }
+
+
+    article{
+        width: 70vw;
+       
+    }
+
+    #caixa2{
+        width: 99%;
+        padding: 20px;
+        flex-flow: wrap;
+        justify-content: space-evenly;
+    }
+
+
+    #caixa2 a{
+        width: 370px;
+    }
+
+    .proj{
+        margin: 10px;
+    }
+
+    .site:hover {
+        transform:scale(1.2,1.2);
+        transition: 0.6s;
+        outline:none;
+        border:none;
+    }
+
+    .table:hover{
+        transform:scale(1.2,1.2);
+        transition: 0.6s;
+        outline:none;
+        border:none;
+    }
+
+    .siteMobile:hover{
+        transform:scale(1.2,1.2);
+        transition: 0.6s;
+        outline:none;
+        border:none;
+    }
+
+    .texto {
+        height: 150px;
+        border: 1px solid rgba(128, 128, 128, 0);
+     }
+
+    .texto:hover {
+        background-image: linear-gradient(to right, black, rgba(5, 52, 63, 0.991));
+        border: 1px solid grey;
+        transition: 2s;
+    }
+
+    .objetivo {
+        width: 90vw;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    header{
+        justify-content: right;  
+    }
+
+    header a{
+        font-size: 1em;
+        width: 100px;
+        margin: 25px;
+        text-align: center;
+    }
+
+    header a:hover{
+        text-decoration: none;
+        border: 1px solid rgba(5, 52, 63, 0.991);
+        background-color: rgba(13, 95, 113, 0.991);
+        transition: 0.5s;
+    }
+
+    .curriculo a:hover{
+        background-color: black;
+    }
+
+    #eu h1{
+        font-size: 1.4em;
+    }
+
+    #foto {
+        height: 350px;
+    }
+
+    .redes{
+        height: 40px;
+    }
+
+    article{
+        width: 60vw;
+       
+    }
+    
+    .h3{
+        font-size: 1.7em;
+    }
+
+    #caixa2{
+        background-size: cover;
+        justify-content: space-evenly;
+        flex-flow: wrap;
+    }
+
+    #caixa2 a{
+        width: 400px;
+    }
+
+    .site{
+      width: 250px;
+      
+    }
+
+    .site:hover {
+        transform:scale(1.1,1.1);
+        transition: 0.6s;
+        outline:none;
+        border:none;
+    }
+
+    .table{
+        width: 70px;
+        margin: 12px;
+    }
+    .table:hover{
+        transform:scale(1.2,1.2);
+        transition: 0.6s;
+        outline:none;
+        border:none;
+    }
+
+    .siteMobile:hover{
+        transform:scale(1.2,1.2);
+        transition: 0.6s;
+        outline:none;
+        border:none;
+    }
+
+    .siteMobile {
+        width: 30px;
+    }
+    
+    .proj{
+        margin: 10px;
+        margin-top: 30px;
+    }
+     
+    .texto {
+        height: 170px;
+        border: 1px solid rgba(128, 128, 128, 0);
+    }
+    .texto:hover {
+        background-image: linear-gradient(to right, black, rgba(5, 52, 63, 0.991));
+        border: 1px solid grey;
+    }
+
+    .perfil img{
+        height: 200px;
+    }
+
+    .objetivo {
+        width: 70vw;
+        margin-bottom: 40px;
+    }
+
+}

@@ -1,0 +1,364 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-image: linear-gradient(to right, black, rgba(5, 52, 63, 0.991));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+header a {
+    color: white;
+    padding: 2px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: 2px soli;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    animation: zoomIn;
+    animation-duration: 1s;
+}
+
+.curriculo {
+    margin-right: auto;
+    animation: backInRight;
+    animation-duration: 3s;
+}
+
+
+header .curriculo a {
+    color: rgb(51, 209, 253);
+}
+
+.curriculo a:hover {
+    border: none;
+    text-decoration: underline;
+}
+
+
+header a:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+nav {
+    width: 50%;
+    height: 100vh;
+    background-image: linear-gradient(to top, black, rgba(5, 52, 63, 0.991));
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#eu {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#eu h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    animation: bounceInDown;
+    animation-duration: 1s;
+
+}
+
+
+
+
+#eu a:hover {
+    transition: 0.3s;
+    background-color: rgba(5, 52, 63, 0.991);
+}
+
+
+#foto {
+    height: 200px;
+    border-radius: 0px 50px 0px;
+    animation: fadeInUp;
+    animation-duration: 2s;
+    filter: drop-shadow(1px 8px 10px black);
+
+}
+
+aside {
+    position: relative;
+    width: 50%;
+    background-color: black;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    animation: zoomInUp;
+    animation-duration: 2.5s;
+}
+
+aside a {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 40px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+aside a span {
+    margin-top: 10px;
+}
+
+
+.redes {
+    height: 30px;
+    transition: 0.5s;
+}
+
+.redes:hover {
+    transform: scale(1.2, 1.2);
+    transition: 0.4s;
+    outline: none;
+    border: none;
+
+
+}
+
+#conteudo {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+
+}
+
+#class3,
+h3 {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5em;
+    margin: 5px;
+}
+
+#habilidades {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right, black, rgba(5, 52, 63, 0.991));
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#linguagem {
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ling {
+    margin: 10px;
+    width: 60%;
+    transition: 0.5s;
+}
+
+.ling:hover {
+    transform: scale(1.2, 1.2);
+    transition: 0.3s;
+    outline: none;
+    border: none;
+}
+
+.lis {
+    margin-top: 10px;
+}
+
+.lis li {
+    margin: 5px;
+    list-style-type: square;
+}
+
+article {
+    color: white;
+    text-align: justify;
+    padding: 20px;
+}
+
+article p {
+    text-indent: 20px;
+}
+
+#caixa2 {
+    width: 100%;
+    margin-bottom: 5px;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    align-items: center;
+    color: white;
+    transition: 1s;
+
+}
+
+#caixa2 a {
+    color: white;
+    text-decoration: none;
+    background-image: url(imagens/fundo3.jpg);
+    background-attachment: fixed;
+    border: 1px solid rgb(92, 92, 92);
+    margin: 5px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.site {
+    width: 170px;
+    transition: 0.3s;
+}
+
+
+
+.table {
+    width: 50px;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+
+
+.siteMobile {
+    width: 25px;
+    border-radius: 4px;
+    transition: 0.3s;
+
+}
+
+
+.proj {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+
+#caixa3 {
+    width: 100%;
+    min-height: 500px;
+    background-image: linear-gradient(to right, black, rgba(5, 52, 63, 0.991));
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+
+
+
+.perfil {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    border: px solid white;
+}
+
+.perfil img {
+    height: 150px;
+    border-radius: 15px;
+}
+
+.perfil img:hover {
+    animation: tada;
+    animation-duration: 1s;
+    box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.587);
+}
+
+.objetivo {
+    margin-top: 30px;
+    color: white;
+    width: 95vw;
+}
+
+.objetivo h4 {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.obj {
+    background-color: rgba(5, 52, 63, 0.621);
+    padding: 10px;
+    text-align: center;
+    text-indent: 20px;
+
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+}
+
+.texto p{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.imgTexto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.texto img {
+    width: 25px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+hr {
+    width: 100%;
+}
