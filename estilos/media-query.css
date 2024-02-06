@@ -46,7 +46,8 @@
     }
 
     .linguagem img {
-        margin: 0 10px;
+        margin: 10px 10px;
+        max-width: 40px;
         
     }
 
@@ -90,12 +91,13 @@
     .texto {
         height: 180px;
         border: 1px solid rgba(128, 128, 128, 0);
+        
      }
 
     .texto:hover {
         background-image: linear-gradient(to right, black, rgba(5, 52, 63, 0.991));
         border: 1px solid grey;
-        transition: 2s;
+        transition: .5s;
     }
 
     .objetivo {
@@ -145,8 +147,8 @@
     }
 
     .linguagem img {
-        margin: 0 20px;
-        max-width: 60px;
+        margin: 10px 20px;
+        max-width: 50px;
         
     }
     
@@ -206,10 +208,12 @@
     .texto {
         height: 170px;
         border: 1px solid rgba(128, 128, 128, 0);
+        
     }
     .texto:hover {
         background-image: linear-gradient(to right, black, rgba(5, 52, 63, 0.991));
         border: 1px solid grey;
+        transition: .5s;
     }
 
     .perfil img{
