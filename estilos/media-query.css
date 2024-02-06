@@ -45,6 +45,11 @@
        
     }
 
+    .linguagem img {
+        margin: 0 10px;
+        
+    }
+
     #caixa2{
         width: 99%;
         padding: 20px;
@@ -83,7 +88,7 @@
     }
 
     .texto {
-        height: 150px;
+        height: 180px;
         border: 1px solid rgba(128, 128, 128, 0);
      }
 
@@ -137,6 +142,12 @@
     article{
         width: 60vw;
        
+    }
+
+    .linguagem img {
+        margin: 0 20px;
+        max-width: 60px;
+        
     }
     
     .h3{
